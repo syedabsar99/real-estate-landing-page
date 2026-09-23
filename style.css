@@ -13,6 +13,7 @@ html,
 body {
   height: 100%;
   width: 100%;
+  overflow-x: hidden;
 }
 
 /* OPEN */
@@ -764,8 +765,8 @@ padding: 15px 0 30px 0;
     top: 20px;
     left: 15px;
   }
-  .container,
-  /* .container-sm {
+  /* .container,
+  .container-sm {
     max-width: 540px !important;
   } */
   .guidance-left h2 {
@@ -930,10 +931,11 @@ padding: 15px 0 30px 0;
     height: 600px;
   }
 }
-/* /* @media(max-width:480px){
+/* @media (max-width: 480px) {
     .auth-img {
         margin-left: 37% !important;
-    /* }  */
+    }
+} */
 
 @media (max-width: 655px) {
   .para-prop {
@@ -1080,6 +1082,70 @@ padding: 15px 0 30px 0;
 }
 .input-group input, .input-group select, .input-group textarea {
     font-size: 14px;
-  
 }
+}
+
+/* Mobile responsiveness enhancements */
+.apppointment,
+.appointment {
+  width: 100%;
+}
+
+@media (max-width: 576px) {
+  html, body {
+    overflow-x: hidden;
+    max-width: 100vw;
+  }
+  .navbar-wrapper {
+    top: 10px;
+    padding: 0 10px;
+  }
+  .navbar-nav .nav-link {
+    padding: 8px 15px !important;
+  }
+  .property {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    right: auto;
+    padding: 20px 15px;
+    margin-top: 20px;
+  }
+  .open {
+    height: auto;
+    min-height: 100vh;
+    padding-bottom: 40px;
+  }
+  .time-slots {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .time-slots button {
+    width: 100%;
+  }
+  .dates {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+  }
+  .week-days {
+    display: flex;
+    justify-content: space-around;
+  }
+  .portfolio-card {
+    margin-bottom: 20px;
+  }
+  .cr-left {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+    text-align: center;
+  }
+  .cr-right {
+    text-align: center;
+    margin-top: 10px;
+  }
 }
