@@ -1,96 +1,104 @@
-# Real Estate Landing Page Clone
+# Aria Blake Real Estate — Luxury Property & Brokerage Landing Page
 
-A modern and fully responsive real estate landing page built using HTML5, CSS3, and Bootstrap 5. The project focuses on clean UI design, responsive layouts, accessibility improvements, and performance optimization.
+An architectural, editorial-style luxury real estate agency landing page built with semantic HTML5, modern CSS3, and Bootstrap 5 featuring exclusive Manhattan-inspired property showcases, guidance services for buyers and sellers, an interactive appointment booking calendar, and verified client testimonials.
 
-## 🌐 Live Demo
-
-**View Live Project**
-
-https://syedabsar99.github.io/real-estate-landing-page/
-
----
-
-## 📸 Preview
-
-### Desktop View
-
-![Desktop Preview](./screenshots/desktop-preview.png)
-
-### Mobile View
-
-![Mobile Preview](./screenshots/mobile-preview.png)
+[![Live Demo](https://img.shields.io/badge/Demo-Live_Demo-06b6d4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://syedabsar99.github.io/real-estate-landing-page/)
+[![Bootstrap 5](https://img.shields.io/badge/Bootstrap-5.3-7952CC?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com)
+[![HTML5 & CSS3](https://img.shields.io/badge/Stack-HTML5%20%26%20CSS3-E34F26?style=for-the-badge&logo=html5&logoColor=white)](style.css)
+[![License](https://img.shields.io/badge/License-MIT-6366f1?style=for-the-badge)](LICENSE)
 
 ---
 
-## 🚀 Features
+## Preview
 
-* Fully responsive design
-* Modern real estate landing page UI
-* Fixed navigation bar
-* Property showcase section
-* Services and portfolio sections
-* Testimonials section
-* Appointment booking interface
-* Hover animations and interactions
-* Optimized image loading with lazy loading
-* Improved accessibility with descriptive alt text
+![Aria Blake Real Estate Preview](preview.png)
+
+> **Live Demo:** [syedabsar99.github.io/real-estate-landing-page](https://syedabsar99.github.io/real-estate-landing-page/)
 
 ---
 
-## 🛠️ Built With
+## Overview
 
-* HTML5
-* CSS3
-* Bootstrap 5
-* Flexbox
-* CSS Grid
-* Google Fonts
-* Remix Icons
+Designed and built by **Syed Noor Ul Absar**, this landing page embodies the aesthetic of high-end metropolitan real estate firms. Combining editorial typography (Playfair Display, Space Mono, IBM Plex Mono) with warm travertine and dark mahogany color tokens, it creates a striking, prestigious visual impression.
+
+The experience leads potential buyers through handpicked penthouse listings, broker biography, recent transactional sales, and an appointment booking module complete with date picker and consultation scheduling.
 
 ---
 
-## 📂 Project Structure
+## Key Features
+
+- **Hero Experience with Glassmorphism Card** — Full-screen architectural hero background with floating frosted-glass property highlight card.
+- **Handpicked Exclusive Listings** — Parallax-feel property showcase cards with room metrics (Bed / Bath / Sqm) and numbered sequence badges.
+- **Advisory Services Matrix** — Structured guidance matrix covering Buying, Selling, Investing, and Leasing with tailored value propositions.
+- **Realtor Profile & Trust Story** — Personal brand introduction emphasizing speed, local market expertise, and personalized client advocacy.
+- **Interactive Appointment Booking & Calendar** — Comprehensive booking interface featuring month navigation, selectable date numbers, time-slot chips, and contact form inputs.
+- **Recent Transactional Sales Gallery** — Real estate sales portfolio highlighting Greenwich Village, Downtown Skyline, and Soho lofts.
+- **Mobile-First Responsive Layout** — Optimized with custom CSS media queries ensuring smooth navigation and readable typography on mobile screens down to 320px.
+
+---
+
+## Tech Stack
+
+| Layer | Technologies | Details |
+| :--- | :--- | :--- |
+| **Structure** | Semantic HTML5 | Sectional architecture, calendar controls, accessible forms |
+| **Styling** | Modern CSS3 & Bootstrap 5 | Travertine/mahogany tokens, glassmorphism, custom togglers, media queries |
+| **Typography & Icons** | Google Fonts & Remix Icon | Playfair Display, Space Mono, IBM Plex Mono, Remix Icons |
+| **Hosting** | GitHub Pages | CDN delivery with global HTTPS |
+
+---
+
+## Project Structure
 
 ```text
-real-estate-landing-page
-│
-├── index.html
-├── style.css
-├── screenshots/
-│   ├── desktop-preview.png
-│   └── mobile-preview.png
-│
-└── README.md
+real-estate-landing-page/
+├── screenshots/       # Desktop and mobile preview captures
+├── index.html         # Complete single-page luxury real estate layout
+├── LICENSE            # MIT open-source license
+├── preview.png        # High-resolution full-page showcase screenshot
+├── README.md          # Comprehensive repository documentation
+└── style.css          # Design system, editorial typography, and mobile queries
 ```
 
 ---
 
-## 🎯 Learning Outcomes
+## Getting Started
 
-Through this project I practiced:
+No build tools or package installations are required.
 
-* Responsive web design
-* Bootstrap layout system
-* CSS Flexbox and Grid
-* UI implementation from a design reference
-* Performance optimization techniques
-* Accessibility best practices
-* Git and GitHub deployment workflow
+### 1. Clone the repository
+```bash
+git clone https://github.com/syedabsar99/real-estate-landing-page.git
+```
+
+### 2. Open locally
+Launch `index.html` in your browser:
+```bash
+cd real-estate-landing-page
+start index.html
+```
+
+Or run via any static web server:
+```bash
+npx serve .
+# or
+python -m http.server 8080
+```
 
 ---
 
-## 🔗 Deployment
-
-This project is deployed using GitHub Pages.
-
-Live URL:
-
-https://syedabsar99.github.io/real-estate-landing-page/
-
----
-
-## 👨‍💻 Author
+## Author & Contact
 
 **Syed Noor Ul Absar**
+- **Role**: Frontend Web Developer
+- **Education**: Bachelor of Computer Applications (BCA), Chandigarh University (8.35 SGPA)
+- **Portfolio**: [syedabsar99.github.io/portfolio](https://syedabsar99.github.io/portfolio/)
+- **GitHub**: [@syedabsar99](https://github.com/syedabsar99)
+- **LinkedIn**: [linkedin.com/in/syed-noor-ul-absar-7b6408365](https://www.linkedin.com/in/syed-noor-ul-absar-7b6408365/)
+- **Email**: syedabsar99@gmail.com
 
-GitHub: https://github.com/syedabsar99
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE) — feel free to use, modify, and distribute for educational or personal use.
